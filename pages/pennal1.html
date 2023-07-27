@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Style/pennal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <div class="screen" id="students">
+        <div class="hide" id="modal">
+            <div class="child">
+                <div class="child1">
+                    <div class="cutbtn">
+                        <button id="hidebtn"><i class="fa fa-times" aria-hidden="true"
+                                style="font-size: 20px;"></i></button>
+                    </div>
+                    <div class="text">
+                        <h2 style="margin-left: 100px;">student detail</h2>
+
+                    </div>
+            
+                    <div class="input">
+                        <label for="" style="font-size: 20px; margin-right: 170px;">Name</label>
+                        <input type="text" id="inputname">
+                        <label for="" style="font-size: 20px; margin-right: 170px;">email</label>
+                        <input type="text" id="inputemail">
+                        <label for="" style="font-size: 20px; margin-right: 170px;">mobile</label>
+                        <input type="text" id="inputmobile">
+                        <label for="" style="font-size: 20px; margin-right: 170px;">address</label>
+                        <input type="text" id="inputaddress">
+                    </div>
+                    <div class="btner">
+                        <button id="sub">submit</button>
+                    </div>
+                </div>
+         
+            </div>
+        </div>
+        <section style="width: 100%;height: 100vh;display: flex;flex-direction: column;">
+            <header class="Header" id="sideshow1">
+            
+                <button id="show" style="font-size: 20px; margin-left: 20px; margin-bottom: 10px;">add</button>
+            </header>
+   
+       
+        <div class="screen" id="EditStudent">
+            <div class="parent1" id="modal1">
+                <div class="child2">
+                    <div class="child3">
+                        <div class="cutbtn1">
+                            <button id="hidebtn1"><i class="fa fa-times" aria-hidden="true"
+                                    style="font-size: 20px;"></i></button>
+                        </div>
+                     
+                        <div class="text1">
+                            <h2 style="margin-left: 100px; padding-bottom: 10px;"> Edit student detail</h2>
+                        </div>
+                        <div class="input1">
+                            <input type="hidden" value="" id="studentRow">
+                            <label for="" style="font-size: 20px; margin-right: 170px;">Name</label>
+                            <input type="text" id="inputname1">
+                            <label for="" style="font-size: 20px; margin-right: 170px;">email</label>
+                            <input type="text" id="inputemail1">
+                            <label for="" style="font-size: 20px; margin-right: 170px;">mobile</label>
+                            <input type="text" id="inputmobile1">
+                            <label for="" style="font-size: 20px; margin-right: 170px;">address</label>
+                            <input type="text" id="inputaddress1">
+                        </div>
+                        <div class="btner1">
+                            <button id="sub1">submit</button>
+                        </div>
+                    </div>
+              
+                </div>
+            
+            </div>
+
+            
+        </div>
+        <table class="table">
+            <tr class="trow">
+                <th class="thead" style="width: 80px;">id</th>
+                <th class="thead">Name</th>
+                <th class="thead">email</th>
+                <th class="thead">mobile</th>
+                <th class="thead">address</th>
+                <th class="thead">action</th>
+            </tr>
+            <tbody id="studentsTable"></tbody>
+        </table>
+   
+ 
+
+        <script src="../js/tablerint1.js"></script>
+        <script src="../js/pennal1.js"></script>
+</body>
+</html>

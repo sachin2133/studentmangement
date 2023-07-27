@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <titl>
+        </title>
+        <link rel="stylesheet" href="../Style//signup.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="heading">
+                <h1>Sign Up</h1>
+                <span id="error"></span>
+            </div>
+            <div class="inpt">
+                <input id="name" type="text" placeholder="First Name">
+                <input id ="last" type="text" placeholder="Last Name">
+                <input  id="email"type="text" placeholder="Email">
+                <input  id="pass" type="password" placeholder="Password">
+            </div>
+            <div class="login">
+                <a href="http://127.0.0.1:5500/pages/login.htm">
+                    <span>already a member?</span>
+                    <span>log in</span>
+                </a>
+            </div>
+            <div class="btn">
+            <button id="btn1">signin</div></button>
+        
+        </div>
+        </div>
+    </div>
+    </div>
+    <script src="../js/signup.js"></script>
+   
+</body>
+
+</html>
+
+
+
+
+
+<div class="screen" id="students">
+    <div class="hide" id="modal">
+        <div class="child">
+            <div class="child1">
+                <div class="cutbtn">
+                    <button id="hidebtn"><i class="fa fa-times" aria-hidden="true"
+                            style="font-size: 20px;"></i></button>
+                </div>
+                <div class="text">
+                    <h2 style="margin-left: 100px;">student detail</h2>
+
+                </div>
+                <div class="input">
+                    <label for="" style="font-size: 20px; margin-right: 170px;">Name</label>
+                    <input type="text" id="inputname">
+                    <label for="" style="font-size: 20px; margin-right: 170px;">email</label>
+                    <input type="text" id="inputemail">
+                    <label for="" style="font-size: 20px; margin-right: 170px;">mobile</label>
+                    <input type="text" id="inputmobile">
+                    <label for="" style="font-size: 20px; margin-right: 170px;">address</label>
+                    <input type="text" id="inputaddress">
+                </div>
+                <div class="btner">
+                    <button id="sub">submit</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="screen" id="EditStudent">
+        <div class="parent1" id="modal1">
+            <div class="child2">
+                <div class="child3">
+                    <div class="cutbtn1">
+                        <button id="hidebtn1"><i class="fa fa-times" aria-hidden="true"
+                                style="font-size: 20px;"></i></button>
+                    </div>
+                    <div class="text1">
+                        <h2 style="margin-left: 100px; padding-bottom: 10px;"> Edit student detail</h2>
+                    </div>
+                    <div class="input1">
+                        <input type="hidden" value="" id="studentRow">
+                        <label for="" style="font-size: 20px; margin-right: 170px;">Name</label>
+                        <input type="text" id="inputname1">
+                        <label for="" style="font-size: 20px; margin-right: 170px;">email</label>
+                        <input type="text" id="inputemail1">
+                        <label for="" style="font-size: 20px; margin-right: 170px;">mobile</label>
+                        <input type="text" id="inputmobile1">
+                        <label for="" style="font-size: 20px; margin-right: 170px;">address</label>
+                        <input type="text" id="inputaddress1">
+                    </div>
+                    <div class="btner1">
+                        <button id="sub1">submit</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <h2 style="text-align: center;">student details</h2>
+    <button id="show" style="font-size: 20px; margin-left: 20px; margin-bottom: 10px;">add</button>
+
+
+    <table class="table">
+        <tr class="trow">
+            <th class="thead" style="width: 80px;">id</th>
+            <th class="thead">Name</th>
+            <th class="thead">email</th>
+            <th class="thead">mobile</th>
+            <th class="thead">address</th>
+            <th class="thead">action</th>
+        </tr>
+        <tbody id="studentsTable"></tbody>
+    </table>
+
+</div>
